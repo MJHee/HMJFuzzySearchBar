@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F2469111D7D171B002FE8A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2469101D7D171B002FE8A2 /* main.m */; };
+		6F2469141D7D171B002FE8A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2469131D7D171B002FE8A2 /* AppDelegate.m */; };
+		6F2469171D7D171B002FE8A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2469161D7D171B002FE8A2 /* ViewController.m */; };
+		6F24691A1D7D171B002FE8A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F2469181D7D171B002FE8A2 /* Main.storyboard */; };
+		6F24691C1D7D171B002FE8A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F24691B1D7D171B002FE8A2 /* Assets.xcassets */; };
+		6F24691F1D7D171B002FE8A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F24691D1D7D171B002FE8A2 /* LaunchScreen.storyboard */; };
+		6F24692A1D7D171B002FE8A2 /* HMJFuzzySearchBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2469291D7D171B002FE8A2 /* HMJFuzzySearchBarTests.m */; };
+		6F2469351D7D171B002FE8A2 /* HMJFuzzySearchBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2469341D7D171B002FE8A2 /* HMJFuzzySearchBarUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F2469261D7D171B002FE8A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F2469041D7D171B002FE8A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F24690B1D7D171B002FE8A2;
+			remoteInfo = HMJFuzzySearchBar;
+		};
+		6F2469311D7D171B002FE8A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F2469041D7D171B002FE8A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F24690B1D7D171B002FE8A2;
+			remoteInfo = HMJFuzzySearchBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F24690C1D7D171B002FE8A2 /* HMJFuzzySearchBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HMJFuzzySearchBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F2469101D7D171B002FE8A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F2469121D7D171B002FE8A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6F2469131D7D171B002FE8A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6F2469151D7D171B002FE8A2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6F2469161D7D171B002FE8A2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6F2469191D7D171B002FE8A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F24691B1D7D171B002FE8A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F24691E1D7D171B002FE8A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F2469201D7D171B002FE8A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F2469251D7D171B002FE8A2 /* HMJFuzzySearchBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HMJFuzzySearchBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F2469291D7D171B002FE8A2 /* HMJFuzzySearchBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMJFuzzySearchBarTests.m; sourceTree = "<group>"; };
+		6F24692B1D7D171B002FE8A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F2469301D7D171B002FE8A2 /* HMJFuzzySearchBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HMJFuzzySearchBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F2469341D7D171B002FE8A2 /* HMJFuzzySearchBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMJFuzzySearchBarUITests.m; sourceTree = "<group>"; };
+		6F2469361D7D171B002FE8A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F2469091D7D171B002FE8A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F2469221D7D171B002FE8A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F24692D1D7D171B002FE8A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F2469031D7D171B002FE8A2 = {
+			isa = PBXGroup;
+			children = (
+				6F24690E1D7D171B002FE8A2 /* HMJFuzzySearchBar */,
+				6F2469281D7D171B002FE8A2 /* HMJFuzzySearchBarTests */,
+				6F2469331D7D171B002FE8A2 /* HMJFuzzySearchBarUITests */,
+				6F24690D1D7D171B002FE8A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F24690D1D7D171B002FE8A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F24690C1D7D171B002FE8A2 /* HMJFuzzySearchBar.app */,
+				6F2469251D7D171B002FE8A2 /* HMJFuzzySearchBarTests.xctest */,
+				6F2469301D7D171B002FE8A2 /* HMJFuzzySearchBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F24690E1D7D171B002FE8A2 /* HMJFuzzySearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				6F2469121D7D171B002FE8A2 /* AppDelegate.h */,
+				6F2469131D7D171B002FE8A2 /* AppDelegate.m */,
+				6F2469151D7D171B002FE8A2 /* ViewController.h */,
+				6F2469161D7D171B002FE8A2 /* ViewController.m */,
+				6F2469181D7D171B002FE8A2 /* Main.storyboard */,
+				6F24691B1D7D171B002FE8A2 /* Assets.xcassets */,
+				6F24691D1D7D171B002FE8A2 /* LaunchScreen.storyboard */,
+				6F2469201D7D171B002FE8A2 /* Info.plist */,
+				6F24690F1D7D171B002FE8A2 /* Supporting Files */,
+			);
+			path = HMJFuzzySearchBar;
+			sourceTree = "<group>";
+		};
+		6F24690F1D7D171B002FE8A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F2469101D7D171B002FE8A2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F2469281D7D171B002FE8A2 /* HMJFuzzySearchBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F2469291D7D171B002FE8A2 /* HMJFuzzySearchBarTests.m */,
+				6F24692B1D7D171B002FE8A2 /* Info.plist */,
+			);
+			path = HMJFuzzySearchBarTests;
+			sourceTree = "<group>";
+		};
+		6F2469331D7D171B002FE8A2 /* HMJFuzzySearchBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6F2469341D7D171B002FE8A2 /* HMJFuzzySearchBarUITests.m */,
+				6F2469361D7D171B002FE8A2 /* Info.plist */,
+			);
+			path = HMJFuzzySearchBarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F24690B1D7D171B002FE8A2 /* HMJFuzzySearchBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F2469391D7D171B002FE8A2 /* Build configuration list for PBXNativeTarget "HMJFuzzySearchBar" */;
+			buildPhases = (
+				6F2469081D7D171B002FE8A2 /* Sources */,
+				6F2469091D7D171B002FE8A2 /* Frameworks */,
+				6F24690A1D7D171B002FE8A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HMJFuzzySearchBar;
+			productName = HMJFuzzySearchBar;
+			productReference = 6F24690C1D7D171B002FE8A2 /* HMJFuzzySearchBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F2469241D7D171B002FE8A2 /* HMJFuzzySearchBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F24693C1D7D171B002FE8A2 /* Build configuration list for PBXNativeTarget "HMJFuzzySearchBarTests" */;
+			buildPhases = (
+				6F2469211D7D171B002FE8A2 /* Sources */,
+				6F2469221D7D171B002FE8A2 /* Frameworks */,
+				6F2469231D7D171B002FE8A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F2469271D7D171B002FE8A2 /* PBXTargetDependency */,
+			);
+			name = HMJFuzzySearchBarTests;
+			productName = HMJFuzzySearchBarTests;
+			productReference = 6F2469251D7D171B002FE8A2 /* HMJFuzzySearchBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6F24692F1D7D171B002FE8A2 /* HMJFuzzySearchBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F24693F1D7D171B002FE8A2 /* Build configuration list for PBXNativeTarget "HMJFuzzySearchBarUITests" */;
+			buildPhases = (
+				6F24692C1D7D171B002FE8A2 /* Sources */,
+				6F24692D1D7D171B002FE8A2 /* Frameworks */,
+				6F24692E1D7D171B002FE8A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F2469321D7D171B002FE8A2 /* PBXTargetDependency */,
+			);
+			name = HMJFuzzySearchBarUITests;
+			productName = HMJFuzzySearchBarUITests;
+			productReference = 6F2469301D7D171B002FE8A2 /* HMJFuzzySearchBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F2469041D7D171B002FE8A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = MJHee;
+				TargetAttributes = {
+					6F24690B1D7D171B002FE8A2 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					6F2469241D7D171B002FE8A2 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 6F24690B1D7D171B002FE8A2;
+					};
+					6F24692F1D7D171B002FE8A2 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 6F24690B1D7D171B002FE8A2;
+					};
+				};
+			};
+			buildConfigurationList = 6F2469071D7D171B002FE8A2 /* Build configuration list for PBXProject "HMJFuzzySearchBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F2469031D7D171B002FE8A2;
+			productRefGroup = 6F24690D1D7D171B002FE8A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F24690B1D7D171B002FE8A2 /* HMJFuzzySearchBar */,
+				6F2469241D7D171B002FE8A2 /* HMJFuzzySearchBarTests */,
+				6F24692F1D7D171B002FE8A2 /* HMJFuzzySearchBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F24690A1D7D171B002FE8A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F24691F1D7D171B002FE8A2 /* LaunchScreen.storyboard in Resources */,
+				6F24691C1D7D171B002FE8A2 /* Assets.xcassets in Resources */,
+				6F24691A1D7D171B002FE8A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F2469231D7D171B002FE8A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F24692E1D7D171B002FE8A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F2469081D7D171B002FE8A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F2469171D7D171B002FE8A2 /* ViewController.m in Sources */,
+				6F2469141D7D171B002FE8A2 /* AppDelegate.m in Sources */,
+				6F2469111D7D171B002FE8A2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F2469211D7D171B002FE8A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F24692A1D7D171B002FE8A2 /* HMJFuzzySearchBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F24692C1D7D171B002FE8A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F2469351D7D171B002FE8A2 /* HMJFuzzySearchBarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F2469271D7D171B002FE8A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F24690B1D7D171B002FE8A2 /* HMJFuzzySearchBar */;
+			targetProxy = 6F2469261D7D171B002FE8A2 /* PBXContainerItemProxy */;
+		};
+		6F2469321D7D171B002FE8A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F24690B1D7D171B002FE8A2 /* HMJFuzzySearchBar */;
+			targetProxy = 6F2469311D7D171B002FE8A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F2469181D7D171B002FE8A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F2469191D7D171B002FE8A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F24691D1D7D171B002FE8A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F24691E1D7D171B002FE8A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F2469371D7D171B002FE8A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6F2469381D7D171B002FE8A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F24693A1D7D171B002FE8A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = HMJFuzzySearchBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hemengjie.HMJFuzzySearchBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6F24693B1D7D171B002FE8A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = HMJFuzzySearchBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hemengjie.HMJFuzzySearchBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6F24693D1D7D171B002FE8A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HMJFuzzySearchBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hemengjie.HMJFuzzySearchBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HMJFuzzySearchBar.app/HMJFuzzySearchBar";
+			};
+			name = Debug;
+		};
+		6F24693E1D7D171B002FE8A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HMJFuzzySearchBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hemengjie.HMJFuzzySearchBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HMJFuzzySearchBar.app/HMJFuzzySearchBar";
+			};
+			name = Release;
+		};
+		6F2469401D7D171B002FE8A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HMJFuzzySearchBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hemengjie.HMJFuzzySearchBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HMJFuzzySearchBar;
+			};
+			name = Debug;
+		};
+		6F2469411D7D171B002FE8A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HMJFuzzySearchBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hemengjie.HMJFuzzySearchBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HMJFuzzySearchBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F2469071D7D171B002FE8A2 /* Build configuration list for PBXProject "HMJFuzzySearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F2469371D7D171B002FE8A2 /* Debug */,
+				6F2469381D7D171B002FE8A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F2469391D7D171B002FE8A2 /* Build configuration list for PBXNativeTarget "HMJFuzzySearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F24693A1D7D171B002FE8A2 /* Debug */,
+				6F24693B1D7D171B002FE8A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6F24693C1D7D171B002FE8A2 /* Build configuration list for PBXNativeTarget "HMJFuzzySearchBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F24693D1D7D171B002FE8A2 /* Debug */,
+				6F24693E1D7D171B002FE8A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6F24693F1D7D171B002FE8A2 /* Build configuration list for PBXNativeTarget "HMJFuzzySearchBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F2469401D7D171B002FE8A2 /* Debug */,
+				6F2469411D7D171B002FE8A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F2469041D7D171B002FE8A2 /* Project object */;
+}
