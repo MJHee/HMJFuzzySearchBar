@@ -15,6 +15,16 @@
 		6F24691F1D7D171B002FE8A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F24691D1D7D171B002FE8A2 /* LaunchScreen.storyboard */; };
 		6F24692A1D7D171B002FE8A2 /* HMJFuzzySearchBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2469291D7D171B002FE8A2 /* HMJFuzzySearchBarTests.m */; };
 		6F2469351D7D171B002FE8A2 /* HMJFuzzySearchBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2469341D7D171B002FE8A2 /* HMJFuzzySearchBarUITests.m */; };
+		6F2469441D7D1C26002FE8A2 /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2469431D7D1C26002FE8A2 /* NavigationViewController.m */; };
+		6F2469471D7D1C51002FE8A2 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2469461D7D1C51002FE8A2 /* UIView+Extension.m */; };
+		6F24694A1D7D1CA0002FE8A2 /* HMJSchool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2469491D7D1CA0002FE8A2 /* HMJSchool.m */; };
+		6F24694D1D7D6970002FE8A2 /* HMJSchoolTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F24694C1D7D6970002FE8A2 /* HMJSchoolTool.m */; };
+		6F2469521D7D6DEC002FE8A2 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F2469511D7D6DEC002FE8A2 /* libsqlite3.0.tbd */; };
+		6F31E9341D7E71D000371A21 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F31E9211D7E71D000371A21 /* FMDatabase.m */; };
+		6F31E9351D7E71D000371A21 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F31E9231D7E71D000371A21 /* FMDatabaseAdditions.m */; };
+		6F31E9361D7E71D000371A21 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F31E9251D7E71D000371A21 /* FMDatabasePool.m */; };
+		6F31E9371D7E71D000371A21 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F31E9271D7E71D000371A21 /* FMDatabaseQueue.m */; };
+		6F31E9381D7E71D000371A21 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F31E92A1D7E71D000371A21 /* FMResultSet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,27 @@
 		6F2469301D7D171B002FE8A2 /* HMJFuzzySearchBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HMJFuzzySearchBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F2469341D7D171B002FE8A2 /* HMJFuzzySearchBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMJFuzzySearchBarUITests.m; sourceTree = "<group>"; };
 		6F2469361D7D171B002FE8A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F2469421D7D1C26002FE8A2 /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		6F2469431D7D1C26002FE8A2 /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		6F2469451D7D1C51002FE8A2 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		6F2469461D7D1C51002FE8A2 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		6F2469481D7D1CA0002FE8A2 /* HMJSchool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMJSchool.h; sourceTree = "<group>"; };
+		6F2469491D7D1CA0002FE8A2 /* HMJSchool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMJSchool.m; sourceTree = "<group>"; };
+		6F24694B1D7D6970002FE8A2 /* HMJSchoolTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMJSchoolTool.h; sourceTree = "<group>"; };
+		6F24694C1D7D6970002FE8A2 /* HMJSchoolTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMJSchoolTool.m; sourceTree = "<group>"; };
+		6F24694E1D7D6A44002FE8A2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6F2469511D7D6DEC002FE8A2 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		6F31E9201D7E71D000371A21 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		6F31E9211D7E71D000371A21 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		6F31E9221D7E71D000371A21 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		6F31E9231D7E71D000371A21 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		6F31E9241D7E71D000371A21 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		6F31E9251D7E71D000371A21 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		6F31E9261D7E71D000371A21 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		6F31E9271D7E71D000371A21 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		6F31E9281D7E71D000371A21 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		6F31E9291D7E71D000371A21 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		6F31E92A1D7E71D000371A21 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F2469521D7D6DEC002FE8A2 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +113,7 @@
 		6F2469031D7D171B002FE8A2 = {
 			isa = PBXGroup;
 			children = (
+				6F2469511D7D6DEC002FE8A2 /* libsqlite3.0.tbd */,
 				6F24690E1D7D171B002FE8A2 /* HMJFuzzySearchBar */,
 				6F2469281D7D171B002FE8A2 /* HMJFuzzySearchBarTests */,
 				6F2469331D7D171B002FE8A2 /* HMJFuzzySearchBarUITests */,
@@ -103,10 +136,20 @@
 			children = (
 				6F2469121D7D171B002FE8A2 /* AppDelegate.h */,
 				6F2469131D7D171B002FE8A2 /* AppDelegate.m */,
+				6F2469421D7D1C26002FE8A2 /* NavigationViewController.h */,
+				6F2469431D7D1C26002FE8A2 /* NavigationViewController.m */,
 				6F2469151D7D171B002FE8A2 /* ViewController.h */,
 				6F2469161D7D171B002FE8A2 /* ViewController.m */,
+				6F2469481D7D1CA0002FE8A2 /* HMJSchool.h */,
+				6F2469491D7D1CA0002FE8A2 /* HMJSchool.m */,
+				6F24694B1D7D6970002FE8A2 /* HMJSchoolTool.h */,
+				6F24694C1D7D6970002FE8A2 /* HMJSchoolTool.m */,
+				6F2469451D7D1C51002FE8A2 /* UIView+Extension.h */,
+				6F2469461D7D1C51002FE8A2 /* UIView+Extension.m */,
+				6F24694E1D7D6A44002FE8A2 /* PrefixHeader.pch */,
 				6F2469181D7D171B002FE8A2 /* Main.storyboard */,
 				6F24691B1D7D171B002FE8A2 /* Assets.xcassets */,
+				6F31E9111D7E71D000371A21 /* src */,
 				6F24691D1D7D171B002FE8A2 /* LaunchScreen.storyboard */,
 				6F2469201D7D171B002FE8A2 /* Info.plist */,
 				6F24690F1D7D171B002FE8A2 /* Supporting Files */,
@@ -138,6 +181,32 @@
 				6F2469361D7D171B002FE8A2 /* Info.plist */,
 			);
 			path = HMJFuzzySearchBarUITests;
+			sourceTree = "<group>";
+		};
+		6F31E9111D7E71D000371A21 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				6F31E91F1D7E71D000371A21 /* fmdb */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		6F31E91F1D7E71D000371A21 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				6F31E9201D7E71D000371A21 /* FMDatabase.h */,
+				6F31E9211D7E71D000371A21 /* FMDatabase.m */,
+				6F31E9221D7E71D000371A21 /* FMDatabaseAdditions.h */,
+				6F31E9231D7E71D000371A21 /* FMDatabaseAdditions.m */,
+				6F31E9241D7E71D000371A21 /* FMDatabasePool.h */,
+				6F31E9251D7E71D000371A21 /* FMDatabasePool.m */,
+				6F31E9261D7E71D000371A21 /* FMDatabaseQueue.h */,
+				6F31E9271D7E71D000371A21 /* FMDatabaseQueue.m */,
+				6F31E9281D7E71D000371A21 /* FMDB.h */,
+				6F31E9291D7E71D000371A21 /* FMResultSet.h */,
+				6F31E92A1D7E71D000371A21 /* FMResultSet.m */,
+			);
+			path = fmdb;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +339,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F2469471D7D1C51002FE8A2 /* UIView+Extension.m in Sources */,
+				6F31E9341D7E71D000371A21 /* FMDatabase.m in Sources */,
+				6F24694D1D7D6970002FE8A2 /* HMJSchoolTool.m in Sources */,
+				6F31E9351D7E71D000371A21 /* FMDatabaseAdditions.m in Sources */,
+				6F2469441D7D1C26002FE8A2 /* NavigationViewController.m in Sources */,
+				6F31E9361D7E71D000371A21 /* FMDatabasePool.m in Sources */,
 				6F2469171D7D171B002FE8A2 /* ViewController.m in Sources */,
+				6F31E9371D7E71D000371A21 /* FMDatabaseQueue.m in Sources */,
 				6F2469141D7D171B002FE8A2 /* AppDelegate.m in Sources */,
 				6F2469111D7D171B002FE8A2 /* main.m in Sources */,
+				6F31E9381D7E71D000371A21 /* FMResultSet.m in Sources */,
+				6F24694A1D7D1CA0002FE8A2 /* HMJSchool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,11 +492,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HMJFuzzySearchBar/PrefixHeader.pch;
 				INFOPLIST_FILE = HMJFuzzySearchBar/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hemengjie.HMJFuzzySearchBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = HMJFuzzySearchBar/HMJFuzzySearchBar_Bridge_Head.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -427,11 +510,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HMJFuzzySearchBar/PrefixHeader.pch;
 				INFOPLIST_FILE = HMJFuzzySearchBar/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hemengjie.HMJFuzzySearchBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = HMJFuzzySearchBar/HMJFuzzySearchBar_Bridge_Head.h;
 			};
 			name = Release;
 		};
@@ -500,6 +587,7 @@
 				6F24693B1D7D171B002FE8A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6F24693C1D7D171B002FE8A2 /* Build configuration list for PBXNativeTarget "HMJFuzzySearchBarTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +596,7 @@
 				6F24693E1D7D171B002FE8A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6F24693F1D7D171B002FE8A2 /* Build configuration list for PBXNativeTarget "HMJFuzzySearchBarUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +605,7 @@
 				6F2469411D7D171B002FE8A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
